@@ -1,0 +1,25 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local
+.env
+.env.local
