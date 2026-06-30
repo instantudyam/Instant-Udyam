@@ -1,0 +1,47 @@
+# GitHub Pages Configuration for Instant Udyam
+
+# Site Settings
+title: Instant Udyam
+description: Complete guide to Udyam Registration for Indian MSMEs - Free, Comprehensive, Government-Verified
+url: https://instantudyam.github.io/Instant-Udyam
+baseurl: /Instant-Udyam
+
+# Theme
+theme: jekyll-theme-cayman
+
+# SEO & Social
+author: Instant Udyam
+email: support@instantudyam.com
+twitter:
+  username: instantudyam
+social:
+  name: Instant Udyam
+  links:
+    - https://instantudyam.com
+    - https://github.com/instantudyam
+    - https://linkedin.com/company/instant-udyam
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /guides/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      layout: default
+
+# SEO
+google_analytics: false # Enable with your GA ID
+site_description: Most comprehensive online resource for Udyam Registration in India - Free guides, FAQs, and government schemes
+keywords: udyam registration, MSME, India, government scheme, business registration
